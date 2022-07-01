@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #faf4f2;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.header{
+    /* HEX: #rrggbb 0 => f*/
+    background-color: #f8e1db;
+    padding: 10px 30px;
+}
+
+.header .logo img{
+    margin-bottom: 10px;
+    width: 50px;
+}
+
+.header .navbar a{
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.header .navbar a:hover{
+    color: red;
+}
+
+.carousel{
+    background-image: url(../img/BG.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.activity{
+    padding: 80px 0;
+}
+
+.activity .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.activity .title h2{
+    color: #8d8d8d;
+    font-size: 40px;
+}
+
+.activity .main-content .row .col{
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.activity .main-content .item{
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.activity .main-content .item .thumbnail img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.activity .main-content .item h1{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.activity .main-content .item p{
+    font-size: 17px;
+    color: #8d8d8d;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.activity .main-content .item a{
+    color: #8d8d8d;
+    padding: 10px 35px;
+    text-decoration: none;
+    background-color: #e8e8e8;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.activity .main-content .item .thumbnail i{
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* padding: 10px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 35%;
+    line-height: 40px;
+    /* opacity: 0.5; */
+}
+
+.activity .main-content .item .thumbnail{
+    position: relative;
+}
+
+.activity button{
+    display: block;
+    margin: 40px auto;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: 2px solid #ea8166;
+    outline: none;
+    color: #ea8166;
+    background-color: transparent;
+}
+
+.contact{
+    height: 380px;
+    background-color: #f8e1db;
+    border-radius: 0 20px 20px 0;
+    background-image: url('../img/mask.png');
+    background-position-x: -440px;
+    background-repeat: no-repeat;
+}
+
+.contact .contact-wrapper{
+    height: 100%;
+    margin: 0 50px;
+}
+
+.contact-left{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.contact-left img{
+    margin-top: 20px
+}
+
+.contact-right{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-color: #f8e1db;
+}
+
+.contact-right h2{
+    font-weight: bold;
+    font-size: 32px;
+    color: grey;
+    padding: 80px 0 10px 50px;
+}
+
+.contact-right p{
+    padding: 10px 0 40px 50px;
+    color: grey;
+}
+
+.contact-right .span1{
+    margin: 0 0 0 50px;
+    font-weight: bold;
+    color: grey;
+    font-size: 18px;
+}
+
+.contact-right .span2{
+    margin: 0 0 0 147px;
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+}
+
+.contact-right img:nth-child(1){
+    margin: 20px 0 0 50px;
+}
+
+.contact-icon i{
+    font-size: 22px;
+    margin-right: 10px;
+    position: relative;
+    top: -28px;
+    color: #e76f51;
+}
+
+.footer{
+    margin-top: 150px;
+    height: 400px;
+    background-color: #f8e1db;
+    border-radius: 20% 20% 0 0;
+}
+
+.footer-wrapper{
+    height: 50%;
+    margin: 0 50px;
+    padding-top: 120px;
+}
+
+.footer-wrapper .col-1{
+    float: left;
+    width: 40%;
+}
+
+.footer-wrapper h2{
+    font-size: 20px;
+}
+
+.footer-wrapper span{
+    display: inline-block;
+    width: 93%;
+    line-height: 30px;
+    font-size: 17px;
+    margin: 25px 10px 0 0;
+}
+
+
+.footer-wrapper .col-2{
+    font-size: 20px;
+    float: left;
+    width: 20%;
+}
+
+
+.footer-wrapper .col-3{
+    float: left;
+    width: 20%;
+}
+
+.footer-wrapper .col-4{
+    float: left;
+    width: 20%;
+}
+
+.footer-wrapper ul{
+    margin-top: 25px;
+}
+
+.footer-wrapper li{
+    font-size: 17px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.copy-right{
+    margin-top: 25px;
+    margin-left: 45%;
+    font-size: 17px;
+}
+
